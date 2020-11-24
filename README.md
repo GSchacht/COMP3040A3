@@ -13,7 +13,7 @@ This endpoint returns information about all the busses, like their bus number, t
 
 ## Sample Request with Sample response
 
-1) This is a sample request for ticketFair
+1) This is a sample request for ticketFair 
 
 https://api.wpg-transit.org/ticketFair/json?age=76
 
@@ -66,38 +66,38 @@ Sample Response:
 "results" : [
     {
         "id" : "1"
-        "busNumber" : "74",
-        "routeName" : "Kenaston"
-        "startLocation" : "Polo Park", 
-        "endLocation" : "University of Manitoba"
+        "bus_number" : "74",
+        "route_name" : "Kenaston"
+        "start_location" : "Polo Park", 
+        "end_location" : "University of Manitoba"
     },
     {
         "id" : "2"
-        "busNumber" : "75",
-        "routeName" : "Crosstown East"
-        "startLocation" : "Kildonan Place", 
-        "endLocation" : "university of Manitoba"
+        "bus_number" : "75",
+        "route_name" : "Crosstown East"
+        "start_location" : "Kildonan Place", 
+        "end_location" : "university of Manitoba"
     },
     {
         "id" : "3"
-        "busNumber" : "77",
-        "routeName" : "Crosstown North"
-        "startLocation" : "Polo Park", 
-        "endLocation" : "Kildonan Place"
+        "bus_number" : "77",
+        "route_name" : "Crosstown North"
+        "start_location" : "Polo Park", 
+        "end_location" : "Kildonan Place"
     },
     {
         "id" : "4"
-        "busNumber" : "78",
-        "routeName" : "Waverly"
-        "startLocation" : "Polo Park", 
-        "endLocation" : "Universty of Manitoba"
+        "bus_number" : "78",
+        "route_name" : "Waverly"
+        "start_location" : "Polo Park", 
+        "end_location" : "Universty of Manitoba"
     },
     {
         "id" : "5"
-        "busNumber" : "79",
-        "routeName" : "Charleswood"
-        "startLocation" : "Polo Park", 
-        "endLocation" : "Westdale"
+        "bus_number" : "79",
+        "route_name" : "Charleswood"
+        "start_location" : "Polo Park", 
+        "end_location" : "Westdale"
     }
 ],
 "status" : "success"
